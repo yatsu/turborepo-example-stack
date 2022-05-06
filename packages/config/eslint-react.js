@@ -37,6 +37,7 @@ module.exports = {
   },
   rules: {
     'prettier/prettier': 'error',
+    'import/prefer-default-export': 'off',
     'react/react-in-jsx-scope': 'off',
     'react/function-component-definition': [
       2,
