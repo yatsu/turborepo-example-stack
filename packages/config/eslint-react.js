@@ -69,5 +69,6 @@ module.exports = {
     'coverage',
     'dist',
     '.turbo',
+    '*.config.ts',
   ],
 };

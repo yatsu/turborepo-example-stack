@@ -15,9 +15,10 @@ module.exports = {
     'plugin:prettier/recommended',
   ],
   plugins: ['@typescript-eslint', 'import', 'prettier'],
+  parser: '@typescript-eslint/parser',
   parserOptions: {
-    project: ['./tsconfig.json'],
-    tsconfigRootDir: __dirname,
+    ecmaVersion: 13,
+    sourceType: 'module',
   },
   settings: {
     'import/parsers': {
@@ -30,7 +31,8 @@ module.exports = {
       },
       typescript: {
         alwaysTryTypes: true,
-        project: '.',
+        project: ['./tsconfig.json'],
+        tsconfigRootDir: __dirname,
       },
     },
   },

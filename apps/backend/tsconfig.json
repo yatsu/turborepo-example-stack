@@ -1,11 +1,8 @@
 {
   "extends": "../../packages/tsconfig/server.json",
-  "baseUrl": "./",
-  "include": ["src"],
-  "outDir": "dist",
-  "references": [
-    {
-      "path": "./tsconfig.build.json"
-    }
-  ]
+  "include": ["src", "test"],
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "dist"
+  }
 }
