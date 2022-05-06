@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "React",
+  "extends": "./base.json",
+  "compilerOptions": {
+    "allowJs": false,
+    "esModuleInterop": false,
+    "jsx": "react-jsx",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "module": "esnext",
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "target": "es5",
+    "useDefineForClassFields": true
+  }
+}
