@@ -29,6 +29,11 @@ const NavBar = () => {
                 ToDos
               </Link>
             </li>
+            <li>
+              <Link to="/editor" className={navLinkStyle('/editor')}>
+                Editor
+              </Link>
+            </li>
           </ul>
         </div>
       </div>

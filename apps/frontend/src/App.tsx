@@ -1,6 +1,7 @@
 import { QueryClient, QueryClientProvider } from 'react-query';
 import { ReactQueryDevtools } from 'react-query/devtools';
 import { Route, Routes } from 'react-router-dom';
+import Editor from './components/Editor';
 import Home from './components/Home';
 import NavBar from './components/NavBar';
 import ToDos from './components/ToDos';
@@ -15,6 +16,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/todos" element={<ToDos />} />
+          <Route path="/editor" element={<Editor />} />
         </Routes>
       </div>
       <ReactQueryDevtools initialIsOpen={false} />
