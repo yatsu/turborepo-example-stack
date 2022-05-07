@@ -1,3 +1,3 @@
 # turborepo-example-stack
 
-An web development stack using Turborepo, React, NestJS and Vite.
+An example web development stack using [Turborepo](https://turborepo.org/), [React](https://reactjs.org/) and [NestJS](https://nestjs.com/).
