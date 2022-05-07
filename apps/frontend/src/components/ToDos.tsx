@@ -11,7 +11,9 @@ const ToDos = () => {
     <div className="ToDos">
       <h2>ToDos:</h2>
       {data.map((todo: ToDo) => (
-        <p>{todo.todo}</p>
+        <p id={`todo-${todo.id}`} key={`todo-${todo.id}`}>
+          {todo.todo}
+        </p>
       ))}
     </div>
   );
