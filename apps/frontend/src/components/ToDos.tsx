@@ -1,5 +1,6 @@
 import { useToDosQuery } from '../hooks/todo';
 import { ToDo } from '../models/todo';
+import styles from './ToDos.module.css';
 
 const ToDos = () => {
   const { data } = useToDosQuery();
@@ -8,11 +9,11 @@ const ToDos = () => {
   }
 
   return (
-    <div className="ToDos">
-      <h2 className="my-2 text-3xl font-semibold">ToDos:</h2>
-      <ul className="mx-4 list-disc">
+    <div className={styles.todos}>
+      <h2>ToDos:</h2>
+      <ul className={styles.todosContent}>
         {data.map((todo: ToDo) => (
-          <li>{todo.todo}</li>
+          <li key={`todo-${todo.id}`}>{todo.todo}</li>
         ))}
       </ul>
     </div>

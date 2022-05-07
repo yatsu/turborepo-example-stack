@@ -1,0 +1,11 @@
+.todos {
+  @apply m-4;
+}
+
+.todos h2 {
+  @apply my-2 text-2xl font-semibold;
+}
+
+.todosContent {
+  @apply mx-4 list-disc;
+}
