@@ -1,0 +1,19 @@
+.navbar {
+  @apply py-2.5 px-2 bg-white border-gray-200 sm:px-4 dark:bg-gray-800;
+}
+
+.navbarContent {
+  @apply container flex flex-wrap justify-between items-center;
+}
+
+.navbarTitle {
+  @apply flex items-center;
+}
+
+.navbarTitle img {
+  @apply mr-3 h-6 sm:h-9;
+}
+
+.navbarTitle span {
+  @apply self-center text-xl font-semibold whitespace-nowrap dark:text-white;
+}
