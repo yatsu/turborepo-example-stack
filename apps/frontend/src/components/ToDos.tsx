@@ -9,10 +9,12 @@ const ToDos = () => {
 
   return (
     <div className="ToDos">
-      <h2>ToDos:</h2>
-      {data.map((todo: ToDo) => (
-        <p>{todo.todo}</p>
-      ))}
+      <h2 className="my-2 text-3xl font-semibold">ToDos:</h2>
+      <ul className="mx-4 list-disc">
+        {data.map((todo: ToDo) => (
+          <li>{todo.todo}</li>
+        ))}
+      </ul>
     </div>
   );
 };
