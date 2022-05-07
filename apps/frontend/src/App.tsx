@@ -1,6 +1,5 @@
 import { QueryClient, QueryClientProvider } from 'react-query';
 import { ReactQueryDevtools } from 'react-query/devtools';
-import './App.css';
 import NavBar from './components/NavBar';
 import ToDos from './components/ToDos';
 
