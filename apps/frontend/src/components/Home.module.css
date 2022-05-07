@@ -1,0 +1,7 @@
+.home {
+  @apply m-4;
+}
+
+.home h2 {
+  @apply text-xl font-semibold;
+}
