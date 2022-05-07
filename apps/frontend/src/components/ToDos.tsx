@@ -12,7 +12,7 @@ const ToDos = () => {
       <h2 className="my-2 text-3xl font-semibold">ToDos:</h2>
       <ul className="mx-4 list-disc">
         {data.map((todo: ToDo) => (
-          <li>{todo.todo}</li>
+          <li key={`todo-${todo.id}`}>{todo.todo}</li>
         ))}
       </ul>
     </div>
