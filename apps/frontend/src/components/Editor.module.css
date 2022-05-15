@@ -1,0 +1,11 @@
+.editor {
+  @apply flex-1 max-h-full overflow-hidden;
+}
+
+.editorContent {
+  @apply grid grid-cols-2 h-full max-h-full;
+}
+
+.editorContent > div {
+  @apply overflow-scroll;
+}

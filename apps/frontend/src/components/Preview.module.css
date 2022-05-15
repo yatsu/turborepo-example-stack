@@ -1,0 +1,11 @@
+.preview {
+  @apply px-2 py-1;
+}
+
+.preview ol {
+  @apply list-decimal;
+}
+
+.preview ul {
+  @apply list-disc;
+}

@@ -1,5 +1,5 @@
 .navbar {
-  @apply py-2.5 px-2 bg-white border-gray-200 sm:px-4 dark:bg-gray-800;
+  @apply py-2.5 px-2 bg-white border-gray-200 sm:px-4 dark:bg-gray-800 h-14;
 }
 
 .navbarContent {

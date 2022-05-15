@@ -11,7 +11,7 @@ const queryClient = new QueryClient();
 const App = () => {
   return (
     <QueryClientProvider client={queryClient}>
-      <div className="App">
+      <div className="flex flex-col h-full max-h-full overflow-hidden">
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
