@@ -22,7 +22,9 @@
     "react-dom": "^18.0.0",
     "react-query": "^3.38.1",
     "react-remark": "^2.1.0",
-    "react-router-dom": "6"
+    "react-router-dom": "6",
+    "rehype-prism-plus": "^1.4.0",
+    "remark-gfm": "^1"
   },
   "devDependencies": {
     "@types/debug": "^4.1.7",

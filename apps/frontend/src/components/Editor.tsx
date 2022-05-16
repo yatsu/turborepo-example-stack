@@ -5,7 +5,7 @@ import { useState } from 'react';
 import styles from './Editor.module.css';
 import Preview from './Preview';
 
-const initialCode = `## Title
+const initialCode = `# Title
 
 \`\`\`jsx
 function Demo() {
@@ -28,6 +28,34 @@ func main() {
   fmt.Println("Hello, 世界")
 }
 \`\`\`
+
+## GFM
+
+## Autolink literals
+
+www.example.com, https://example.com, and contact@example.com.
+
+### Footnote
+
+A note[^1]
+
+[^1]: Big note.
+
+### Strikethrough
+
+~one~ or ~~two~~ tildes.
+
+### Table
+
+| a | b  |  c |  d  |
+| - | :- | -: | :-: |
+|   1 |    2 |    3 |    4 |
+|1111 | 2222 | 3333 | 4444 |
+
+### Tasklist
+
+* [ ] to do
+* [x] done
 `;
 
 const Editor = () => {
